@@ -1,6 +1,8 @@
 # Recipe Webpage Project
 This repository contains a basic project for a recipe webpage, built solely using HTML. The primary goal behind this project is to provide an opportunity to practice and reinforce the HTML skills you have learned up to this point.
 
+## You can visit the site here: https://atanasls.github.io/odin-recipies/ 
+
 ## Project Overview
 
 - **Project Type:** HTML Exercise 
