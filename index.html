@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+       .center-container {
+            position: absolute;
+            left: 50%;
+            top: 0%;
+            transform: translateX(-50%);
+        }
+        h2{
+            position: absolute;
+            left:2%;
+            top: 5%;
+            transform: translateX(2%, 5%);
+        }
+                /* Style for the list */
+        ol {
+            position: absolute;
+            left: 20px; 
+            top: 90px; 
+        }
+    </style>
 </head>
 <body>
-    <h1>The Odin Recipies</h1>
-    
-    <ol>
-        <li><a href="./recipies/lasagna.html">Lasagna</a></li>
-
-    </ol>
-
-    
-    
+    <div>
+        <!-- Centered header -->
+        <h1 class="center-container">The Odin Recipes</h1>
+        
+        <h2>Here are some recipes ideas:</h2>
+        <!-- Recipe list on the left -->
+        <ol>
+            <li><a href="./recipes/lasagna.html">Lasagna</a></li>
+            <!-- Add more recipe links as needed -->
+        </ol>
+    </div>
 </body>
 </html>
