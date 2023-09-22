@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <title>Classic Lasagna Recipie</title>
+   
 </head>
 <body>
     <!-- first heager  -->
@@ -62,5 +63,27 @@
     <!-- image of the lasagna -->
 
     <img src="../images/lasagna-photo.jpg" alt="Lasagna" height="300" width="300">
+
+    <button id="return-to-top" onclick="scrollToTop()">Return to Top</button>
+
+    <script>
+        // JavaScript function to scroll back to the top of the page
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth" // Smooth scrolling animation
+            });
+        }
+
+        // Show/hide the button based on scroll position
+        window.addEventListener("scroll", function() {
+            var button = document.getElementById("return-to-top");
+            if (window.scrollY > 200) { // Adjust this value as needed
+                button.style.display = "block";
+            } else {
+                button.style.display = "none";
+            }
+        });
+    </script>
 </body>
 </html>
