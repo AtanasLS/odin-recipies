@@ -1,0 +1,39 @@
+body {
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #3C2A21;
+  }
+.center-container {
+    font-size: 34px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translateX(-50%);
+    color: #E5E5CB;
+}
+h2{
+    position: absolute;
+    left:2%;
+    top: 5%;
+    transform: translateX(2%, 5%);
+    color: #E5E5CB;
+}
+        /* Style for the list */
+ol {
+    position: absolute;
+    left: 20px; 
+    top: 90px; 
+    color: #E5E5CB;
+}
+/* basic footer setup */
+.buttom-footer{
+    margin-top: auto;
+    background-color:#1A120B ;
+    color: white;
+    text-align: center;
+
+}
