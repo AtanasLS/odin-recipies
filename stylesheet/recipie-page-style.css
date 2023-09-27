@@ -1,0 +1,66 @@
+/* basic footer setup */
+.buttom-footer{
+    margin-top: auto;
+    background-color:#1A120B ;
+    color: white;
+    text-align: center;
+
+}
+#button-style{
+    background-color:#1A120B ;
+    color: white;
+    text-align: center;
+    border: transparent;
+
+}
+ /* Center the header */
+
+    body {
+
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: #3C2A21;
+      }
+
+h1 {
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: #E5E5CB;
+    margin: 20px 0;
+}
+/* Style for ingredients */
+.ingredients {
+    background-color: #7f4f24;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+/* Style for instructions */
+.instructions {
+    padding: 10px;
+    background-color: #7f4f24;
+    border: 3px solid black;
+    margin-bottom: 20px;
+}
+.image {
+    background-color: #7f4f24;
+    padding: 10px;
+    border: 3px solid black;
+    margin-bottom: auto;
+}
+.image a {
+    display: block;
+    text-align: center;
+}
+
+
+/*
+#return-to-top{
+    background-color: #1A120B;
+    font-size: large;
+    
+}
+*/

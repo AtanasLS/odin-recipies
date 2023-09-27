@@ -4,39 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mac and Cheese Recipe</title>
-    <style>
-        /* Center the header */
-        body {
-            text-align: center;
-        }
-        h1 {
-            margin: 20px 0;
-        }
-        /* Style for ingredients */
-        .ingredients {
-            background-color: #f4f4f4;
-            padding: 10px;
-            border: 1px solid #ccc;
-            margin-bottom: 20px;
-        }
-        /* Style for instructions */
-        .instructions {
-            background-color: #f9f9f9;
-            padding: 10px;
-            border: 1px solid #ccc;
-            margin-bottom: 20px;
-        }
-        .image {
-            background-color: #f9f9f9;
-            padding: 10px;
-            border: 1px solid #ccc;
-            margin-bottom: auto;
-        }
-        .image a {
-            display: block;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="../stylesheet/recipie-page-style.css">
+
 </head>
 <body>
     <h1>Mac and Cheese Recipe</h1>
@@ -73,5 +42,34 @@
         </a>
 
     </div>
+
+    <div class="buttom-footer">
+        <footer>
+            <p>Author: AtanasLS</p>
+            <p><a href="GitHub">https://github.com/AtanasLS</a></p>
+            <button  onclick="scrollToTop()">Return to Top</button>
+          </footer>
+    </div>
+
+
+    <script>
+        // JavaScript function to scroll back to the top of the page
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth" // Smooth scrolling animation
+            });
+        }
+
+        // Show/hide the button based on scroll position
+        window.addEventListener("scroll", function() {
+            var button = document.getElementById("return-to-top");
+            if (window.scrollY > 200) { // Adjust this value as needed
+                button.style.display = "block";
+            } else {
+                button.style.display = "none";
+            }
+        });
+    </script>
 </body>
 </html>
